@@ -1,0 +1,5 @@
+---
+repositories:
+  - name: .github
+  - name: github-actions-and-workflows
+  - name: github-organization-as-code
