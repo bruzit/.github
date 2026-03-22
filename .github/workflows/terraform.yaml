@@ -1,0 +1,19 @@
+---
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  call-terraform:
+    uses: bruzit/github-organization-as-code/.github/workflows/terraform.yaml@v0
+    with:
+      aws_endpoint_url_s3: ${{ vars.AWS_ENDPOINT_URL_S3 }}
+      gh_owner: ${{ vars.GH_TF_OWNER }}
+      gh_app_id: ${{ vars.GH_TF_APP_ID }}
+      gh_app_installation_id: ${{ vars.GH_TF_APP_INSTALLATION_ID }}
+      path: bruzit.yaml
+    secrets:
+      aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      gh_app_pem_file: ${{ secrets.GH_TF_APP_PEM_FILE }}
