@@ -1,5 +1,6 @@
 ---
 repositories:
   - name: .github
+  - name: ansible-collection
   - name: github-actions-and-workflows
   - name: github-organization-as-code
