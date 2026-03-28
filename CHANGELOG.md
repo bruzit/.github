@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.0](https://github.com/bruzit/.github/compare/v0.1.0...v0.2.0) (2026-03-28)
+
+### Features
+
+* add ansible collection repository ([f628222](https://github.com/bruzit/.github/commit/f628222d835ffedb8a5e744ef9d4628a7041c3eb))
+
 ## [0.1.0](https://github.com/bruzit/.github/compare/v0.0.0...v0.1.0) (2026-03-20)
 
 ### Features
