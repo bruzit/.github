@@ -1,6 +1,41 @@
 ---
 repositories:
   - name: .github
+    description: "BruzIT organization profile and repository management."
+    topics:
+      - github-profile
+      - github-profile-readme
+      - github-organization-profile
+      - github-organization-management
   - name: ansible-collection
+    description: "Ansible collection providing a set of roles designed for automated configuration of Kubuntu desktops and Ubuntu servers."
+    topics:
+      - ansible
+      - ansible-collection
+      - ansible-roles
+      - computer-config
+      - kubuntu-configuration
+      - ubuntu-server-configuration
+      - cac
   - name: github-actions-and-workflows
+    description: "A library of GitHub composite actions and reusable workflows."
+    topics:
+      - github-composite-actions
+      - github-reusable-workflows
+      - semantic-release
   - name: github-organization-as-code
+    description: "GitHub organization managed as code. Implements a GitOps workflow to transform a YAML - declarative GitHub organization definition into GitHub resources, automating configuration of repositories."
+    topics:
+      - github
+      - github-organization
+      - github-repositories
+      - github-management
+      - github-workflows
+      - github-app
+      - gitops
+      - terraform
+      - terraform-github
+      - terraform-github-provider
+      - terraform-backend-s3
+      - yaml-configuration
+      - iac
