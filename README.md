@@ -1,6 +1,6 @@
 # BruzIT Organization
 
-BruzIT organization profile and management.
+BruzIT organization profile and repository management.
 
 ## Features
 
