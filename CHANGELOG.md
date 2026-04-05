@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.3.0](https://github.com/bruzit/.github/compare/v0.2.0...v0.3.0) (2026-04-05)
+
+### Features
+
+* add improved repository descriptions and topics ([6a6b280](https://github.com/bruzit/.github/commit/6a6b280cbcde4e72f18e4252bf923c068af7287f))
+
 ## [0.2.0](https://github.com/bruzit/.github/compare/v0.1.0...v0.2.0) (2026-03-28)
 
 ### Features
