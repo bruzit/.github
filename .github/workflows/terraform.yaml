@@ -1,8 +1,12 @@
 ---
+name: Terraform
 on:
   push:
     branches:
       - main
+
+concurrency:
+  group: ${{ github.workflow }}
 
 jobs:
   call-terraform:
