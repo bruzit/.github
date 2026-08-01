@@ -11,6 +11,8 @@ concurrency:
 jobs:
   call-terraform:
     uses: bruzit/github-organization-as-code/.github/workflows/terraform.yaml@v0
+    permissions:
+      contents: read
     with:
       aws_bucket: ${{ vars.AWS_TF_BUCKET }}
       aws_endpoint_url_s3: ${{ vars.AWS_ENDPOINT_URL_S3 }}
