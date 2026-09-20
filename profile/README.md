@@ -18,9 +18,9 @@ A library of GitHub composite actions and reusable workflows.
 
 GitHub organization managed as code. Implements a GitOps workflow to transform a YAML - declarative GitHub organization definition into GitHub resources, automating configuration of repositories.
 
-### BruzIT / Infra (planned)
+### [BruzIT / Infra](https://github.com/bruzit/infra)
 
-Infrastructure-as-Code (IaC) repository for provisioning and configuration of cloud instances, on-premises lab hardware, and physical workstations.
+Infrastructure blueprints for workstations, home network, edge Kubernetes lab, and self-hosted services, provisioned with Ansible and Terraform under GitOps.
 
 ### BruzIT / Template (planned)
 

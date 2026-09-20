@@ -39,3 +39,22 @@ repositories:
       - terraform-backend-s3
       - yaml-configuration
       - iac
+  - name: infra
+    description: "Infrastructure blueprints for workstations, home network, edge Kubernetes lab, and self-hosted services, provisioned with Ansible and Terraform under GitOps."
+    topics:
+      - infrastructure-as-code
+      - iac
+      - gitops
+      - ansible
+      - terraform
+      - kubernetes
+      - homelab
+      - selfhosted
+      - self-hosting
+      - workstation
+      - ubuntu
+      - kubuntu
+      - automation
+      - monorepo
+      - platform-engineering
+      - sre
