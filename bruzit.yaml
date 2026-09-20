@@ -31,11 +31,21 @@ repositories:
       - devops
       - iac
   - name: github-actions-and-workflows
-    description: "A library of GitHub composite actions and reusable workflows."
+    description: "Reusable GitHub Actions workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting."
     topics:
-      - github-composite-actions
-      - github-reusable-workflows
+      - github-actions
+      - reusable-workflows
+      - composite-actions
+      - ci-cd
+      - continuous-integration
+      - release-automation
       - semantic-release
+      - conventional-commits
+      - semver
+      - megalinter
+      - linting
+      - workflow-automation
+      - devops
   - name: github-organization-as-code
     description: "GitHub organization managed as code. Implements a GitOps workflow to transform a YAML - declarative GitHub organization definition into GitHub resources, automating configuration of repositories."
     topics:
