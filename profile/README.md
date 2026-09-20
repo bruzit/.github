@@ -12,7 +12,7 @@ Ansible collection of Molecule-tested roles that provision and maintain Kubuntu 
 
 ### [BruzIT / GitHub Actions and Workflows](https://github.com/bruzit/github-actions-and-workflows)
 
-A library of GitHub composite actions and reusable workflows.
+Reusable GitHub Actions workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting.
 
 ### [BruzIT / GitHub Organization as Code](https://github.com/bruzit/github-organization-as-code)
 
