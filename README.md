@@ -1,6 +1,6 @@
 # BruzIT Organization
 
-BruzIT organization profile and repository management.
+BruzIT organization profile and the declarative YAML definition of its repositories, reconciled into GitHub by GitHub Organization as Code.
 
 ## Features
 

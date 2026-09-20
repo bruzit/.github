@@ -4,7 +4,7 @@
 
 ### [BruzIT / .github](https://github.com/bruzit/.github)
 
-BruzIT organization profile and repository management.
+BruzIT organization profile and the declarative YAML definition of its repositories, reconciled into GitHub by GitHub Organization as Code.
 
 ### [BruzIT / Ansible Collection](https://github.com/bruzit/ansible-collection)
 
