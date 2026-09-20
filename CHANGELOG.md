@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.0](https://github.com/bruzit/.github/compare/v0.3.3...v0.4.0) (2026-09-20)
+
+### Features
+
+* add infra repository ([9fc93de](https://github.com/bruzit/.github/commit/9fc93de88c590a7c7493dc3533b47f1446272ffa))
+
 ## [0.3.3](https://github.com/bruzit/.github/compare/v0.3.2...v0.3.3) (2026-08-01)
 
 ## [0.3.2](https://github.com/bruzit/.github/compare/v0.3.1...v0.3.2) (2026-07-25)
