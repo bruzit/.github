@@ -14,15 +14,22 @@ repositories:
       - terraform
       - yaml
   - name: ansible-collection
-    description: "Ansible collection providing a set of roles designed for automated configuration of Kubuntu desktops and Ubuntu servers."
+    description: "Ansible collection of Molecule-tested roles that provision and maintain Kubuntu desktops and Ubuntu servers."
     topics:
       - ansible
       - ansible-collection
       - ansible-roles
-      - computer-config
-      - kubuntu-configuration
-      - ubuntu-server-configuration
-      - cac
+      - ansible-galaxy
+      - molecule
+      - configuration-management
+      - provisioning
+      - ubuntu
+      - kubuntu
+      - ubuntu-server
+      - linux-desktop
+      - automation
+      - devops
+      - iac
   - name: github-actions-and-workflows
     description: "A library of GitHub composite actions and reusable workflows."
     topics:

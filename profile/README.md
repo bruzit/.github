@@ -8,7 +8,7 @@ BruzIT organization profile and the declarative YAML definition of its repositor
 
 ### [BruzIT / Ansible Collection](https://github.com/bruzit/ansible-collection)
 
-Ansible collection providing a set of roles designed for automated configuration of Kubuntu desktops and Ubuntu servers.
+Ansible collection of Molecule-tested roles that provision and maintain Kubuntu desktops and Ubuntu servers.
 
 ### [BruzIT / GitHub Actions and Workflows](https://github.com/bruzit/github-actions-and-workflows)
 
