@@ -16,7 +16,7 @@ Reusable GitHub Actions workflows forming the CI baseline for every BruzIT repos
 
 ### [BruzIT / GitHub Organization as Code](https://github.com/bruzit/github-organization-as-code)
 
-GitHub organization managed as code. Implements a GitOps workflow to transform a YAML - declarative GitHub organization definition into GitHub resources, automating configuration of repositories.
+GitOps workflow turning a declarative YAML organization definition into GitHub resources with Terraform, authenticated by a GitHub App.
 
 ### [BruzIT / Infra](https://github.com/bruzit/infra)
 

@@ -47,21 +47,22 @@ repositories:
       - workflow-automation
       - devops
   - name: github-organization-as-code
-    description: "GitHub organization managed as code. Implements a GitOps workflow to transform a YAML - declarative GitHub organization definition into GitHub resources, automating configuration of repositories."
+    description: "GitOps workflow turning a declarative YAML organization definition into GitHub resources with Terraform, authenticated by a GitHub App."
     topics:
-      - github
       - github-organization
-      - github-repositories
-      - github-management
-      - github-workflows
-      - github-app
+      - organization-as-code
+      - configuration-as-code
       - gitops
       - terraform
-      - terraform-github
       - terraform-github-provider
-      - terraform-backend-s3
-      - yaml-configuration
+      - github-app
+      - infrastructure-as-code
       - iac
+      - github-actions
+      - reusable-workflows
+      - platform-engineering
+      - devops
+      - yaml
   - name: infra
     description: "Infrastructure blueprints for workstations, home network, edge Kubernetes lab, and self-hosted services, provisioned with Ansible and Terraform under GitOps."
     topics:
