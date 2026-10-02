@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.4.1](https://github.com/bruzit/.github/compare/v0.4.0...v0.4.1) (2026-10-02)
+
+### Bug Fixes
+
+* point env template at bruzit.yaml ([a1eb62e](https://github.com/bruzit/.github/commit/a1eb62e6f43b4e5b05b4b316caf31127181cecd5))
+
 ## [0.4.0](https://github.com/bruzit/.github/compare/v0.3.3...v0.4.0) (2026-09-20)
 
 ### Features
