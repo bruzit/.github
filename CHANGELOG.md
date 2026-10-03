@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.6.0](https://github.com/bruzit/.github/compare/v0.5.0...v0.6.0) (2026-10-03)
+
+### Features
+
+* protect default branches with rulesets ([306e260](https://github.com/bruzit/.github/commit/306e260223a055668aec8a1041cb9f7436f1c015))
+
 ## [0.5.0](https://github.com/bruzit/.github/compare/v0.4.1...v0.5.0) (2026-10-03)
 
 ### Features
