@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.5.0](https://github.com/bruzit/.github/compare/v0.4.1...v0.5.0) (2026-10-03)
+
+### Features
+
+* declare release, production and test environments ([1ad7e31](https://github.com/bruzit/.github/commit/1ad7e31ffca1270d6fa36ceb7e18968119e1322e))
+
 ## [0.4.1](https://github.com/bruzit/.github/compare/v0.4.0...v0.4.1) (2026-10-02)
 
 ### Bug Fixes
