@@ -73,8 +73,6 @@ repositories:
       - linting
       - workflow-automation
       - devops
-    rulesets:
-      default-branch: ~ # releases with GITHUB_TOKEN, which cannot bypass
   - name: github-organization-as-code
     description: "GitOps workflow turning a declarative YAML organization definition into GitHub resources with Terraform, authenticated by a GitHub App."
     topics:
@@ -125,8 +123,6 @@ repositories:
       - monorepo
       - platform-engineering
       - sre
-    rulesets:
-      default-branch: ~ # releases with GITHUB_TOKEN, which cannot bypass
   - name: template
     description: "Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton."
     topics:
