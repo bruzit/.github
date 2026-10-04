@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.9.0](https://github.com/bruzit/.github/compare/v0.8.0...v0.9.0) (2026-10-04)
+
+### Features
+
+* protect the template repository and list it in the profile ([ae3ba0d](https://github.com/bruzit/.github/commit/ae3ba0d0f616660e5c1d1ca28da5bf36f27981eb))
+
 ## [0.8.0](https://github.com/bruzit/.github/compare/v0.7.0...v0.8.0) (2026-10-04)
 
 ### Features
