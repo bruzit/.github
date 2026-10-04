@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.10.0](https://github.com/bruzit/.github/compare/v0.9.0...v0.10.0) (2026-10-04)
+
+### Features
+
+* protect the default branch of every repository ([fcf7adf](https://github.com/bruzit/.github/commit/fcf7adf23bcc122b907c160a797e734b9e930348))
+
 ## [0.9.0](https://github.com/bruzit/.github/compare/v0.8.0...v0.9.0) (2026-10-04)
 
 ### Features
