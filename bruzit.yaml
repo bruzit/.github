@@ -127,3 +127,10 @@ repositories:
       - sre
     rulesets:
       default-branch: ~ # releases with GITHUB_TOKEN, which cannot bypass
+  - name: template
+    description: "Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton."
+    topics:
+      - repository-template
+    is_template: true
+    rulesets:
+      default-branch: ~ # until the first commit seeds main
