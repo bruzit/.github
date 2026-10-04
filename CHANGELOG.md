@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.7.0](https://github.com/bruzit/.github/compare/v0.6.0...v0.7.0) (2026-10-04)
+
+### Features
+
+* declare environment variables and secrets ([14daa45](https://github.com/bruzit/.github/commit/14daa45fa4960837141a0d4370d2cb94b1489853))
+
 ## [0.6.0](https://github.com/bruzit/.github/compare/v0.5.0...v0.6.0) (2026-10-03)
 
 ### Features
