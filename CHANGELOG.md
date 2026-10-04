@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.11.0](https://github.com/bruzit/.github/compare/v0.10.0...v0.11.0) (2026-10-04)
+
+### Features
+
+* declare plan environments with the read-only app ([2bc2856](https://github.com/bruzit/.github/commit/2bc28562db23ceacc13aababcbdeb9c7d599676a))
+
 ## [0.10.0](https://github.com/bruzit/.github/compare/v0.9.0...v0.10.0) (2026-10-04)
 
 ### Features
