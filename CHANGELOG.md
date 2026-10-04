@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.8.0](https://github.com/bruzit/.github/compare/v0.7.0...v0.8.0) (2026-10-04)
+
+### Features
+
+* add the template repository ([46bcfeb](https://github.com/bruzit/.github/commit/46bcfebe838621ab0217af965f55527a69bc3bc0))
+
 ## [0.7.0](https://github.com/bruzit/.github/compare/v0.6.0...v0.7.0) (2026-10-04)
 
 ### Features
