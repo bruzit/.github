@@ -40,6 +40,17 @@ repositories:
           - GH_TF_APP_PEM_FILE
           - AWS_ACCESS_KEY_ID
           - AWS_SECRET_ACCESS_KEY
+      plan:
+        variables:
+          GH_TF_OWNER: "bruzit"
+          GH_TF_APP_ID: "5184763"
+          GH_TF_APP_INSTALLATION_ID: "167782062"
+          AWS_TF_BUCKET: "bruzit-terraform-github"
+          AWS_ENDPOINT_URL_S3: "https://bb6cb15aacaccf32101aab14a9cf3bfd.r2.cloudflarestorage.com"
+        secrets:
+          - GH_TF_APP_PEM_FILE
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
   - name: ansible-collection
     description: "Ansible collection of Molecule-tested roles that provision and maintain Kubuntu desktops and Ubuntu servers."
     topics:
@@ -98,6 +109,17 @@ repositories:
           GH_TF_OWNER: "bruzit-test"
           GH_TF_APP_ID: "3090257"
           GH_TF_APP_INSTALLATION_ID: "118012158"
+          AWS_TF_BUCKET: "bruzit-terraform-github"
+          AWS_ENDPOINT_URL_S3: "https://bb6cb15aacaccf32101aab14a9cf3bfd.r2.cloudflarestorage.com"
+        secrets:
+          - GH_TF_APP_PEM_FILE
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
+      plan:
+        variables:
+          GH_TF_OWNER: "bruzit-test"
+          GH_TF_APP_ID: "5184763"
+          GH_TF_APP_INSTALLATION_ID: "167782115"
           AWS_TF_BUCKET: "bruzit-terraform-github"
           AWS_ENDPOINT_URL_S3: "https://bb6cb15aacaccf32101aab14a9cf3bfd.r2.cloudflarestorage.com"
         secrets:
