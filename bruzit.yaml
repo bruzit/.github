@@ -4,6 +4,10 @@ organization:
     release:
       deployment_branches:
         - ~DEFAULT_BRANCH
+      variables:
+        GH_SEM_REL_APP_ID: "3144447"
+      secrets:
+        - GH_SEM_REL_APP_PEM_FILE
   rulesets:
     default-branch:
       bypass_apps:
@@ -26,6 +30,16 @@ repositories:
       production:
         deployment_branches:
           - ~DEFAULT_BRANCH
+        variables:
+          GH_TF_OWNER: "bruzit"
+          GH_TF_APP_ID: "3090257"
+          GH_TF_APP_INSTALLATION_ID: "116364646"
+          AWS_TF_BUCKET: "bruzit-terraform-github"
+          AWS_ENDPOINT_URL_S3: "https://bb6cb15aacaccf32101aab14a9cf3bfd.r2.cloudflarestorage.com"
+        secrets:
+          - GH_TF_APP_PEM_FILE
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
   - name: ansible-collection
     description: "Ansible collection of Molecule-tested roles that provision and maintain Kubuntu desktops and Ubuntu servers."
     topics:
@@ -82,6 +96,16 @@ repositories:
       test:
         deployment_branches:
           - ~DEFAULT_BRANCH
+        variables:
+          GH_TF_OWNER: "bruzit-test"
+          GH_TF_APP_ID: "3090257"
+          GH_TF_APP_INSTALLATION_ID: "118012158"
+          AWS_TF_BUCKET: "bruzit-terraform-github"
+          AWS_ENDPOINT_URL_S3: "https://bb6cb15aacaccf32101aab14a9cf3bfd.r2.cloudflarestorage.com"
+        secrets:
+          - GH_TF_APP_PEM_FILE
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
   - name: infra
     description: "Infrastructure blueprints for workstations, home network, edge Kubernetes lab, and self-hosted services, provisioned with Ansible and Terraform under GitOps."
     topics:
