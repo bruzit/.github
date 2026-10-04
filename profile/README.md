@@ -22,6 +22,6 @@ GitOps workflow turning a declarative YAML organization definition into GitHub r
 
 Infrastructure blueprints for workstations, home network, edge Kubernetes lab, and self-hosted services, provisioned with Ansible and Terraform under GitOps.
 
-### BruzIT / Template (planned)
+### [BruzIT / Template](https://github.com/bruzit/template)
 
-Standardized repository scaffold for BruzIT projects. Pre-configured with semantic-release, license boilerplate, README structure, and initial v0.0.0 tag.
+Standardized repository scaffold for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton, starting from a v0.0.0 tag.

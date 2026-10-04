@@ -132,5 +132,3 @@ repositories:
     topics:
       - repository-template
     is_template: true
-    rulesets:
-      default-branch: ~ # until the first commit seeds main
