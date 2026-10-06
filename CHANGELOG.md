@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.13.0](https://github.com/bruzit/.github/compare/v0.12.0...v0.13.0) (2026-10-06)
+
+### Features
+
+* add plan and apply credential modes ([cd7d900](https://github.com/bruzit/.github/commit/cd7d900dc4d1267cac5ba79e70d02dcbdd41794d))
+
 ## [0.12.0](https://github.com/bruzit/.github/compare/v0.11.0...v0.12.0) (2026-10-06)
 
 ### Features
