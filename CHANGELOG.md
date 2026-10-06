@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.14.0](https://github.com/bruzit/.github/compare/v0.13.0...v0.14.0) (2026-10-06)
+
+### Features
+
+* declare infra cloud environments ([2be4eb0](https://github.com/bruzit/.github/commit/2be4eb032e5828683ffe30618a17778cb97b94ad))
+
 ## [0.13.0](https://github.com/bruzit/.github/compare/v0.12.0...v0.13.0) (2026-10-06)
 
 ### Features
