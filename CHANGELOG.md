@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.14.1](https://github.com/bruzit/.github/compare/v0.14.0...v0.14.1) (2026-10-06)
+
+### Bug Fixes
+
+* use test environments for infra ([44e9454](https://github.com/bruzit/.github/commit/44e94544f6f9ed6439f1b81eea7ad6fcb6028f1a))
+
 ## [0.14.0](https://github.com/bruzit/.github/compare/v0.13.0...v0.14.0) (2026-10-06)
 
 ### Features
