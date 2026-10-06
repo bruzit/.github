@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.12.0](https://github.com/bruzit/.github/compare/v0.11.0...v0.12.0) (2026-10-06)
+
+### Features
+
+* add terraform plan on pull requests ([2505c6f](https://github.com/bruzit/.github/commit/2505c6f0ee3fc7a003a8f2746884363addfc5d66))
+
 ## [0.11.0](https://github.com/bruzit/.github/compare/v0.10.0...v0.11.0) (2026-10-04)
 
 ### Features
