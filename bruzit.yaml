@@ -145,6 +145,25 @@ repositories:
       - monorepo
       - platform-engineering
       - sre
+    environments:
+      production:
+        deployment_branches:
+          - ~DEFAULT_BRANCH
+        variables:
+          AWS_TF_BUCKET: "bruzit-terraform-hetzner"
+          AWS_ENDPOINT_URL_S3: "https://bb6cb15aacaccf32101aab14a9cf3bfd.r2.cloudflarestorage.com"
+        secrets:
+          - HCLOUD_TOKEN
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
+      plan:
+        variables:
+          AWS_TF_BUCKET: "bruzit-terraform-hetzner"
+          AWS_ENDPOINT_URL_S3: "https://bb6cb15aacaccf32101aab14a9cf3bfd.r2.cloudflarestorage.com"
+        secrets:
+          - HCLOUD_TOKEN
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
   - name: template
     description: "Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton."
     topics:
