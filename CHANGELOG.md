@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.15.0](https://github.com/bruzit/.github/compare/v0.14.1...v0.15.0) (2026-10-07)
+
+### Features
+
+* manage the organization owner ([d5d75de](https://github.com/bruzit/.github/commit/d5d75deda0c723c52bbda896faefb570cce74047))
+
 ## [0.14.1](https://github.com/bruzit/.github/compare/v0.14.0...v0.14.1) (2026-10-06)
 
 ### Bug Fixes
