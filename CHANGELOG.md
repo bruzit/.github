@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.16.0](https://github.com/bruzit/.github/compare/v0.15.0...v0.16.0) (2026-10-08)
+
+### Features
+
+* protect release tags ([dfa707d](https://github.com/bruzit/.github/commit/dfa707dd7b210041eff773a543122fd0c6160235))
+
 ## [0.15.0](https://github.com/bruzit/.github/compare/v0.14.1...v0.15.0) (2026-10-07)
 
 ### Features
