@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.16.1](https://github.com/bruzit/.github/compare/v0.16.0...v0.16.1) (2026-10-17)
+
+### Bug Fixes
+
+* drop the ansible-galaxy topic ([2eebef6](https://github.com/bruzit/.github/commit/2eebef6073ec1ff8d6c26a73cc5fe6b3426c423b))
+
 ## [0.16.0](https://github.com/bruzit/.github/compare/v0.15.0...v0.16.0) (2026-10-08)
 
 ### Features
