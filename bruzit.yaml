@@ -62,7 +62,6 @@ repositories:
       - ansible
       - ansible-collection
       - ansible-roles
-      - ansible-galaxy
       - molecule
       - configuration-management
       - provisioning
