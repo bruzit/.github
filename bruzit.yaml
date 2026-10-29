@@ -20,6 +20,7 @@ organization:
 repositories:
   - name: .github
     description: "BruzIT organization profile and the declarative YAML definition of its repositories, reconciled into GitHub by GitHub Organization as Code."
+    visibility: public
     topics:
       - github-organization
       - organization-profile
@@ -58,6 +59,7 @@ repositories:
           - AWS_SECRET_ACCESS_KEY
   - name: ansible-collection
     description: "Ansible collection of Molecule-tested roles that provision and maintain Kubuntu desktops and Ubuntu servers."
+    visibility: public
     topics:
       - ansible
       - ansible-collection
@@ -74,6 +76,7 @@ repositories:
       - iac
   - name: github-actions-and-workflows
     description: "Reusable GitHub Actions workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting."
+    visibility: public
     topics:
       - github-actions
       - reusable-workflows
@@ -90,6 +93,7 @@ repositories:
       - devops
   - name: github-organization-as-code
     description: "GitOps workflow turning a declarative YAML organization definition into GitHub resources with Terraform, authenticated by a GitHub App."
+    visibility: public
     topics:
       - github-organization
       - organization-as-code
@@ -132,6 +136,7 @@ repositories:
           - AWS_SECRET_ACCESS_KEY
   - name: infra
     description: "Infrastructure blueprints for workstations, home network, edge Kubernetes lab, and self-hosted services, provisioned with Ansible and Terraform under GitOps."
+    visibility: public
     topics:
       - infrastructure-as-code
       - iac
@@ -172,6 +177,7 @@ repositories:
           - AWS_SECRET_ACCESS_KEY
   - name: template
     description: "Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton."
+    visibility: public
     topics:
       - repository-template
     is_template: true
