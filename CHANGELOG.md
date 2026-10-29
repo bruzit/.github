@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.18.0](https://github.com/bruzit/.github/compare/v0.17.0...v0.18.0) (2026-10-29)
+
+### Features
+
+* require status checks on default branches ([0fd30d9](https://github.com/bruzit/.github/commit/0fd30d9e45163219277283c70d84701344d72655))
+
 ## [0.17.0](https://github.com/bruzit/.github/compare/v0.16.1...v0.17.0) (2026-10-29)
 
 ### Features
