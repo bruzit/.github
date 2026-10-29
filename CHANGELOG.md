@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.17.0](https://github.com/bruzit/.github/compare/v0.16.1...v0.17.0) (2026-10-29)
+
+### Features
+
+* declare public visibility on all repositories ([1b55fa1](https://github.com/bruzit/.github/commit/1b55fa11ed3f5fac5dc5f1895879258b49f465a9))
+
 ## [0.16.1](https://github.com/bruzit/.github/compare/v0.16.0...v0.16.1) (2026-10-17)
 
 ### Bug Fixes
