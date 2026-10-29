@@ -21,6 +21,9 @@ repositories:
   - name: .github
     description: "BruzIT organization profile and the declarative YAML definition of its repositories, reconciled into GitHub by GitHub Organization as Code."
     visibility: public
+    required_checks:
+      - Required (MegaLinter)
+      - Required (Terraform Plan)
     topics:
       - github-organization
       - organization-profile
@@ -60,6 +63,9 @@ repositories:
   - name: ansible-collection
     description: "Ansible collection of Molecule-tested roles that provision and maintain Kubuntu desktops and Ubuntu servers."
     visibility: public
+    required_checks:
+      - Required (MegaLinter)
+      - Required (Ansible Molecule Test)
     topics:
       - ansible
       - ansible-collection
@@ -77,6 +83,8 @@ repositories:
   - name: github-actions-and-workflows
     description: "Reusable GitHub Actions workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting."
     visibility: public
+    required_checks:
+      - Required (MegaLinter)
     topics:
       - github-actions
       - reusable-workflows
@@ -94,6 +102,10 @@ repositories:
   - name: github-organization-as-code
     description: "GitOps workflow turning a declarative YAML organization definition into GitHub resources with Terraform, authenticated by a GitHub App."
     visibility: public
+    required_checks:
+      - Required (MegaLinter)
+      - Required (Terraform Plan)
+      - Required (Terraform Test)
     topics:
       - github-organization
       - organization-as-code
@@ -137,6 +149,9 @@ repositories:
   - name: infra
     description: "Infrastructure blueprints for workstations, home network, edge Kubernetes lab, and self-hosted services, provisioned with Ansible and Terraform under GitOps."
     visibility: public
+    required_checks:
+      - Required (MegaLinter)
+      - Required (Terraform Test)
     topics:
       - infrastructure-as-code
       - iac
@@ -178,6 +193,8 @@ repositories:
   - name: template
     description: "Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton."
     visibility: public
+    required_checks:
+      - Required (MegaLinter)
     topics:
       - repository-template
     is_template: true
