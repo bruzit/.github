@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.19.0](https://github.com/bruzit/.github/compare/v0.18.0...v0.19.0) (2026-10-30)
+
+### Features
+
+* add autofix environment ([a0ed229](https://github.com/bruzit/.github/commit/a0ed2293dce64e2c692c493161b0e703072b405d))
+
 ## [0.18.0](https://github.com/bruzit/.github/compare/v0.17.0...v0.18.0) (2026-10-29)
 
 ### Features
