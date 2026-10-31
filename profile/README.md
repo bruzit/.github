@@ -12,7 +12,7 @@ Ansible collection of Molecule-tested roles that provision and maintain Kubuntu 
 
 ### [BruzIT / GitHub Actions and Workflows](https://github.com/bruzit/github-actions-and-workflows)
 
-Reusable GitHub Actions workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting.
+Reusable GitHub Actions and Workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting.
 
 ### [BruzIT / GitHub Organization as Code](https://github.com/bruzit/github-organization-as-code)
 
@@ -24,4 +24,4 @@ Infrastructure blueprints for workstations, home network, edge Kubernetes lab, a
 
 ### [BruzIT / Template](https://github.com/bruzit/template)
 
-Standardized repository scaffold for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton, starting from a v0.0.0 tag.
+Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton.
