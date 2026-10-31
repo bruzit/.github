@@ -4,12 +4,22 @@
 [![Last commit](https://img.shields.io/github/last-commit/bruzit/.github)](https://github.com/bruzit/.github/commits)
 [![MegaLinter](https://github.com/bruzit/.github/actions/workflows/megalinter.yaml/badge.svg)](https://github.com/bruzit/.github/actions/workflows/megalinter.yaml)
 [![Terraform Plan](https://github.com/bruzit/.github/actions/workflows/terraform-plan.yaml/badge.svg)](https://github.com/bruzit/.github/actions/workflows/terraform-plan.yaml)
+[![Semantic Release](https://github.com/bruzit/.github/actions/workflows/semantic-release.yaml/badge.svg)](https://github.com/bruzit/.github/actions/workflows/semantic-release.yaml)
+[![Terraform](https://github.com/bruzit/.github/actions/workflows/terraform.yaml/badge.svg)](https://github.com/bruzit/.github/actions/workflows/terraform.yaml)
 
 BruzIT organization profile and the declarative YAML definition of its repositories, reconciled into GitHub by GitHub Organization as Code.
 
 ## Features
 
 - **[BruzIT GitHub Organization](https://github.com/bruzit) management** - Defined as code in [`bruzit.yaml`](bruzit.yaml) and provisioned using [BruzIT GitHub Organization as Code](https://github.com/bruzit/github-organization-as-code).
+- **Organization profile** - Public profile shown on the BruzIT GitHub Organization page, in [`profile/README.md`](profile/README.md).
+
+## Requirements
+
+- [BruzIT GitHub Organization as Code](https://github.com/bruzit/github-organization-as-code) cloned next to this repository; `TF_VAR_config` in [`.env.tmpl`](.env.tmpl) points from its `terraform` directory to `../../.github/bruzit.yaml`.
+- Terraform `~> 1.15`.
+- direnv, loading [`.envrc`](.envrc).
+- S3-compatible bucket for the Terraform state and GitHub Apps with plan (read-only) and apply credentials.
 
 ## Installation and Setup
 
@@ -27,6 +37,18 @@ Direnv loads plan mode with read-only credentials by default, apply credentials 
 terraform -chdir=../github-organization-as-code/terraform plan -lock=false -refresh=false
 TF_MODE=apply direnv exec . terraform -chdir=../github-organization-as-code/terraform apply
 ```
+
+## Integration and Deployment
+
+| Workflow                                                                   | Trigger                           | Purpose                                                                                                       |
+|----------------------------------------------------------------------------|-----------------------------------|---------------------------------------------------------------------------------------------------------------|
+| [`megalinter.yaml`](.github/workflows/megalinter.yaml)                     | Pull request                      | Lint changed files with MegaLinter, autofix via app; required check.                                          |
+| [`terraform-plan.yaml`](.github/workflows/terraform-plan.yaml)             | Pull request                      | Terraform plan of [`bruzit.yaml`](bruzit.yaml) against the organization (`plan` environment); required check. |
+| [`semantic-release.yaml`](.github/workflows/semantic-release.yaml)         | Push to `main`                    | Version, changelog and GitHub release by semantic-release (`release` environment).                            |
+| [`terraform.yaml`](.github/workflows/terraform.yaml)                       | Push to `main`, manual            | Terraform apply of [`bruzit.yaml`](bruzit.yaml) (`production` environment).                                   |
+| [`megalinter-scheduled.yaml`](.github/workflows/megalinter-scheduled.yaml) | Weekly (Monday 06:00 UTC), manual | Lint the whole codebase with MegaLinter.                                                                      |
+
+A push to `main` applies [`bruzit.yaml`](bruzit.yaml) to the live BruzIT GitHub Organization (`production` environment).
 
 ## Support
 
