@@ -38,6 +38,10 @@ terraform -chdir=../github-organization-as-code/terraform plan -lock=false -refr
 TF_MODE=apply direnv exec . terraform -chdir=../github-organization-as-code/terraform apply
 ```
 
+## Support
+
+Community, best effort; [open a GitHub issue](../../issues).
+
 ## Integration and Deployment
 
 | Workflow                                                                   | Trigger                           | Purpose                                                                                                       |
@@ -49,10 +53,6 @@ TF_MODE=apply direnv exec . terraform -chdir=../github-organization-as-code/terr
 | [`megalinter-scheduled.yaml`](.github/workflows/megalinter-scheduled.yaml) | Weekly (Monday 06:00 UTC), manual | Lint the whole codebase with MegaLinter.                                                                      |
 
 A push to `main` applies [`bruzit.yaml`](bruzit.yaml) to the live BruzIT GitHub Organization (`production` environment).
-
-## Support
-
-Community, best effort; [open a GitHub issue](../../issues).
 
 ## Contributing
 
