@@ -86,7 +86,7 @@ repositories:
       - devops
       - iac
   - name: github-actions-and-workflows
-    description: "Reusable GitHub Actions workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting."
+    description: "Reusable GitHub Actions and Workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting."
     visibility: public
     required_checks:
       - Required (MegaLinter)
