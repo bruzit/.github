@@ -1,5 +1,7 @@
 # BruzIT
 
+BruzIT builds with AI tools; every change is reviewed by a human, who is accountable for it.
+
 ## Repositories
 
 ### [BruzIT / .github](https://github.com/bruzit/.github)
