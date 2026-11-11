@@ -85,6 +85,9 @@ repositories:
       - automation
       - devops
       - iac
+  - name: claude-config
+    description: "Claude Code instructions and global agent configuration"
+    visibility: private
   - name: github-actions-and-workflows
     description: "Reusable GitHub Actions and Workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting."
     visibility: public
