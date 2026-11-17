@@ -155,6 +155,7 @@ repositories:
     description: "Infrastructure blueprints for workstations, home network, edge Kubernetes lab, and self-hosted services, provisioned with Ansible and Terraform under GitOps."
     visibility: public
     required_checks:
+      - Required (BATS)
       - Required (MegaLinter)
       - Required (Terraform Test)
     topics:
