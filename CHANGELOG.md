@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.20.0](https://github.com/bruzit/.github/compare/v0.19.0...v0.20.0) (2026-11-17)
+
+### Features
+
+* require bats check on infra ([0dc68bc](https://github.com/bruzit/.github/commit/0dc68bc6a433de3e39686b9d14ca27da1e0a9e57))
+
 ## [0.19.0](https://github.com/bruzit/.github/compare/v0.18.0...v0.19.0) (2026-10-30)
 
 ### Features
