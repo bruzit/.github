@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.22.0](https://github.com/bruzit/.github/compare/v0.21.0...v0.22.0) (2026-11-18)
+
+### Features
+
+* require test check on martin.bruzina.cz ([c5dd817](https://github.com/bruzit/.github/commit/c5dd817d41debc2bf360200fa2259ebef1f12074))
+
 ## [0.21.0](https://github.com/bruzit/.github/compare/v0.20.0...v0.21.0) (2026-11-18)
 
 ### Features
