@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.21.0](https://github.com/bruzit/.github/compare/v0.20.0...v0.21.0) (2026-11-18)
+
+### Features
+
+* add martin.bruzina.cz repository ([46398fc](https://github.com/bruzit/.github/commit/46398fcfc3de8efab9f6a6f056b5c6a965f82a97))
+
 ## [0.20.0](https://github.com/bruzit/.github/compare/v0.19.0...v0.20.0) (2026-11-17)
 
 ### Features
