@@ -204,6 +204,7 @@ repositories:
       repository: template
     required_checks:
       - Required (MegaLinter)
+      - Required (Test)
   - name: template
     description: "Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton."
     visibility: public
