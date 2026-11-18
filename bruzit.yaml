@@ -196,6 +196,14 @@ repositories:
           - HCLOUD_TOKEN
           - AWS_ACCESS_KEY_ID
           - AWS_SECRET_ACCESS_KEY
+  - name: martin.bruzina.cz
+    description: "Personal web of Martin Bružina: e-business card, CV and blog."
+    visibility: public
+    template:
+      owner: bruzit
+      repository: template
+    required_checks:
+      - Required (MegaLinter)
   - name: template
     description: "Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton."
     visibility: public
