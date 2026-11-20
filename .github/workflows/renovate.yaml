@@ -1,0 +1,15 @@
+---
+name: Renovate
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  renovate:
+    name: Renovate
+    uses: bruzit/github-actions-and-workflows/.github/workflows/renovate.yaml@v0
+    permissions: {}
+    secrets:
+      GH_RENOVATE_APP_PEM_FILE: ${{ secrets.GH_RENOVATE_APP_PEM_FILE }}
