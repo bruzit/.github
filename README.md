@@ -13,6 +13,7 @@ BruzIT organization profile and the declarative YAML definition of its repositor
 
 - **[BruzIT GitHub Organization](https://github.com/bruzit) management** - Defined as code in [`bruzit.yaml`](bruzit.yaml), provisioned with [BruzIT GitHub Organization as Code](https://github.com/bruzit/github-organization-as-code).
 - **Organization profile** - The public front page of the BruzIT GitHub Organization: [`profile/README.md`](profile/README.md).
+- **Renovate preset** - Shared [Renovate](https://docs.renovatebot.com/) configuration for the organization's repositories: [`renovate-config.json`](renovate-config.json). Repositories extend it with `local>bruzit/.github:renovate-config`.
 
 ## Requirements
 
@@ -51,6 +52,7 @@ TF_MODE=apply direnv exec . terraform -chdir=../github-organization-as-code/terr
 | [`semantic-release.yaml`](.github/workflows/semantic-release.yaml)         | Push to `main`                    | Version, changelog and GitHub release by semantic-release (`release` environment).                            |
 | [`terraform.yaml`](.github/workflows/terraform.yaml)                       | Push to `main`, manual            | Terraform apply of [`bruzit.yaml`](bruzit.yaml) (`production` environment).                                   |
 | [`megalinter-scheduled.yaml`](.github/workflows/megalinter-scheduled.yaml) | Weekly (Monday 06:00 UTC), manual | Lint the whole codebase with MegaLinter.                                                                      |
+| [`renovate.yaml`](.github/workflows/renovate.yaml)                         | Hourly, manual                    | Update dependencies in every organization repository with Renovate via app.                                   |
 
 A push to `main` applies [`bruzit.yaml`](bruzit.yaml) to the live BruzIT GitHub Organization (`production` environment).
 
