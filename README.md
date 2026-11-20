@@ -11,19 +11,19 @@ BruzIT organization profile and the declarative YAML definition of its repositor
 
 ## Features
 
-- **[BruzIT GitHub Organization](https://github.com/bruzit) management** - Defined as code in [`bruzit.yaml`](bruzit.yaml) and provisioned using [BruzIT GitHub Organization as Code](https://github.com/bruzit/github-organization-as-code).
-- **Organization profile** - Public profile shown on the BruzIT GitHub Organization page, in [`profile/README.md`](profile/README.md).
+- **[BruzIT GitHub Organization](https://github.com/bruzit) management** - Defined as code in [`bruzit.yaml`](bruzit.yaml), provisioned with [BruzIT GitHub Organization as Code](https://github.com/bruzit/github-organization-as-code).
+- **Organization profile** - The public front page of the BruzIT GitHub Organization: [`profile/README.md`](profile/README.md).
 
 ## Requirements
 
 - [BruzIT GitHub Organization as Code](https://github.com/bruzit/github-organization-as-code) cloned next to this repository; `TF_VAR_config` in [`.env.tmpl`](.env.tmpl) points from its `terraform` directory to `../../.github/bruzit.yaml`.
 - Terraform `~> 1.15`.
-- direnv, loading [`.envrc`](.envrc).
-- S3-compatible bucket for the Terraform state and GitHub Apps with plan (read-only) and apply credentials.
+- direnv, which loads [`.envrc`](.envrc) into your shell.
+- An S3-compatible bucket for the Terraform state, and GitHub Apps with plan (read-only) and apply credentials.
 
 ## Installation and Setup
 
-Copy the templates [`.env.tmpl`](.env.tmpl), [`.env.plan.tmpl`](.env.plan.tmpl) and [`.env.apply.tmpl`](.env.apply.tmpl) without `.tmpl` and fill them in.
+Copy [`.env.tmpl`](.env.tmpl), [`.env.plan.tmpl`](.env.plan.tmpl) and [`.env.apply.tmpl`](.env.apply.tmpl) to the same names without `.tmpl`, fill them in, then initialize Terraform:
 
 ```shell
 terraform -chdir=../github-organization-as-code/terraform init -backend-config="bucket=$AWS_BUCKET"
@@ -31,7 +31,7 @@ terraform -chdir=../github-organization-as-code/terraform init -backend-config="
 
 ## Usage
 
-Direnv loads plan mode with read-only credentials by default, apply credentials only for a single command with `TF_MODE=apply`.
+Plan by default: direnv loads the read-only plan credentials. To apply, prefix a single command with `TF_MODE=apply`; only that command gets the apply credentials.
 
 ```shell
 terraform -chdir=../github-organization-as-code/terraform plan -lock=false -refresh=false
@@ -40,7 +40,7 @@ TF_MODE=apply direnv exec . terraform -chdir=../github-organization-as-code/terr
 
 ## Support
 
-Community, best effort; [open a GitHub issue](../../issues).
+[Open a GitHub issue](../../issues). I answer best effort, as a community project.
 
 ## Integration and Deployment
 
@@ -56,7 +56,7 @@ A push to `main` applies [`bruzit.yaml`](bruzit.yaml) to the live BruzIT GitHub 
 
 ## Contributing
 
-Open a pull request to `main`. Commits follow the [Conventional Commits 1.0.0 specification](https://www.conventionalcommits.org/en/v1.0.0/), from which semantic-release sets versions and the changelog automatically.
+Open a pull request to `main`. Write commits per the [Conventional Commits 1.0.0 specification](https://www.conventionalcommits.org/en/v1.0.0/); semantic-release sets the version and changelog from them.
 
 ## License and Copyright
 
