@@ -217,6 +217,30 @@ repositories:
           - HCLOUD_TOKEN
           - AWS_ACCESS_KEY_ID
           - AWS_SECRET_ACCESS_KEY
+      prod:
+        deployment_branches:
+          - ~DEFAULT_BRANCH
+        reviewers:
+          - bruzina
+        variables:
+          AWS_TF_BUCKET: bruzit-terraform-hetzner
+          AWS_ENDPOINT_URL_S3: https://bb6cb15aacaccf32101aab14a9cf3bfd.r2.cloudflarestorage.com
+          CLOUDFLARE_ACCOUNT_ID: bb6cb15aacaccf32101aab14a9cf3bfd
+        secrets:
+          - HCLOUD_TOKEN
+          - CLOUDFLARE_API_TOKEN
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
+      prod-plan:
+        variables:
+          AWS_TF_BUCKET: bruzit-terraform-hetzner
+          AWS_ENDPOINT_URL_S3: https://bb6cb15aacaccf32101aab14a9cf3bfd.r2.cloudflarestorage.com
+          CLOUDFLARE_ACCOUNT_ID: bb6cb15aacaccf32101aab14a9cf3bfd
+        secrets:
+          - HCLOUD_TOKEN
+          - CLOUDFLARE_API_TOKEN
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
   - name: martin.bruzina.cz
     description: "Personal web of Martin Bružina: e-business card, CV and blog."
     visibility: public
@@ -226,6 +250,19 @@ repositories:
     required_checks:
       - Required (MegaLinter)
       - Required (Test)
+    environments:
+      production:
+        deployment_branches:
+          - ~DEFAULT_BRANCH
+        variables:
+          CLOUDFLARE_ACCOUNT_ID: bb6cb15aacaccf32101aab14a9cf3bfd
+        secrets:
+          - CLOUDFLARE_API_TOKEN
+      preview:
+        variables:
+          CLOUDFLARE_ACCOUNT_ID: bb6cb15aacaccf32101aab14a9cf3bfd
+        secrets:
+          - CLOUDFLARE_API_TOKEN
   - name: template
     description: "Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton."
     visibility: public
