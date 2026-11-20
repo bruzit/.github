@@ -85,6 +85,27 @@ repositories:
       - automation
       - devops
       - iac
+  - name: cronobot
+    description: "Linux task scheduler that wakes the machine by RTC alarm when a task is due, runs it, and powers off when idle."
+    visibility: public
+    template:
+      owner: bruzit
+      repository: template
+    required_checks:
+      - Required (MegaLinter)
+    topics:
+      - scheduler
+      - cron
+      - linux
+      - systemd
+      - power-management
+      - rtc
+      - rtcwake
+      - energy-efficiency
+      - backup
+      - homelab
+      - go
+      - golang
   - name: github-actions-and-workflows
     description: "Reusable GitHub Actions and Workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting."
     visibility: public
