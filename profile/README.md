@@ -1,6 +1,6 @@
 # BruzIT
 
-BruzIT builds with AI tools; every change is reviewed by a human, who is accountable for it.
+I build BruzIT with AI tools. I review every change and I'm accountable for it.
 
 ## Repositories
 
