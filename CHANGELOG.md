@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.23.0](https://github.com/bruzit/.github/compare/v0.22.0...v0.23.0) (2026-11-20)
+
+### Features
+
+* add cronobot repository ([067bc0d](https://github.com/bruzit/.github/commit/067bc0de19e13702d022f852c10aa29080b2b206))
+
 ## [0.22.0](https://github.com/bruzit/.github/compare/v0.21.0...v0.22.0) (2026-11-18)
 
 ### Features
