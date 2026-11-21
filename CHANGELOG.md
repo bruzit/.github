@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.24.0](https://github.com/bruzit/.github/compare/v0.23.0...v0.24.0) (2026-11-21)
+
+### Features
+
+* add renovate environment to .github ([411baa7](https://github.com/bruzit/.github/commit/411baa7895470b0f2c7ae0f7eeacc708e7b8995c))
+
 ## [0.23.0](https://github.com/bruzit/.github/compare/v0.22.0...v0.23.0) (2026-11-20)
 
 ### Features
