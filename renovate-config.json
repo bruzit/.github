@@ -2,5 +2,6 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended", ":semanticCommits"],
   "minimumReleaseAge": "7 days",
-  "assignees": ["bruzina"]
+  "assignees": ["bruzina"],
+  "gitIgnoredAuthors": ["350351220+bruzit-autofix[bot]@users.noreply.github.com"]
 }
