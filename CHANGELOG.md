@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.26.0](https://github.com/bruzit/.github/compare/v0.25.0...v0.26.0) (2026-11-21)
+
+### Features
+
+* ignore autofix commits on renovate branches ([c4473f1](https://github.com/bruzit/.github/commit/c4473f1b347117ccfa0bed5d7596fe4b93cd696e))
+
 ## [0.25.0](https://github.com/bruzit/.github/compare/v0.24.0...v0.25.0) (2026-11-21)
 
 ### Features
