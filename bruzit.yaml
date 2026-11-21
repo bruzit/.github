@@ -65,6 +65,13 @@ repositories:
           - GH_TF_APP_PEM_FILE
           - AWS_ACCESS_KEY_ID
           - AWS_SECRET_ACCESS_KEY
+      renovate:
+        deployment_branches:
+          - ~DEFAULT_BRANCH
+        variables:
+          GH_RENOVATE_APP_ID: "5859731"
+        secrets:
+          - GH_RENOVATE_APP_PEM_FILE
   - name: ansible-collection
     description: "Ansible collection of Molecule-tested roles that provision and maintain Kubuntu desktops and Ubuntu servers."
     visibility: public
