@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.27.1](https://github.com/bruzit/.github/compare/v0.27.0...v0.27.1) (2026-11-23)
+
+### Bug Fixes
+
+* drop cloudflare credentials from infra prod environments ([aa21ef3](https://github.com/bruzit/.github/commit/aa21ef34a6f38f5cd89701f125d365ee3de92cf9))
+
 ## [0.27.0](https://github.com/bruzit/.github/compare/v0.26.0...v0.27.0) (2026-11-23)
 
 ### Features
