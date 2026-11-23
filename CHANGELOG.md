@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.27.0](https://github.com/bruzit/.github/compare/v0.26.0...v0.27.0) (2026-11-23)
+
+### Features
+
+* add prod environments to infra and deploy environments to martin.bruzina.cz ([f8efc52](https://github.com/bruzit/.github/commit/f8efc52ec442f4874c6188a0c7a6d6e42ed03b10))
+
 ## [0.26.0](https://github.com/bruzit/.github/compare/v0.25.0...v0.26.0) (2026-11-21)
 
 ### Features
