@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.28.0](https://github.com/bruzit/.github/compare/v0.27.1...v0.28.0) (2026-11-24)
+
+### Features
+
+* move state to eu tier buckets ([80ad678](https://github.com/bruzit/.github/commit/80ad678e2fea0d39f0491576dab2bd7e9d35fd3a))
+
 ## [0.27.1](https://github.com/bruzit/.github/compare/v0.27.0...v0.27.1) (2026-11-23)
 
 ### Bug Fixes
