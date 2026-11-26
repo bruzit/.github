@@ -12,6 +12,10 @@ BruzIT organization profile and the declarative YAML definition of its repositor
 
 Ansible collection of Molecule-tested roles that provision and maintain Kubuntu desktops and Ubuntu servers.
 
+### [BruzIT / CronoBot](https://github.com/bruzit/cronobot)
+
+Linux task scheduler that wakes the machine by RTC alarm when a task is due, runs it, and powers off when idle.
+
 ### [BruzIT / GitHub Actions and Workflows](https://github.com/bruzit/github-actions-and-workflows)
 
 Reusable GitHub Actions and Workflows forming the CI baseline for every BruzIT repository: semantic-release versioning and MegaLinter linting.
@@ -23,6 +27,10 @@ GitOps workflow turning a declarative YAML organization definition into GitHub r
 ### [BruzIT / Infra](https://github.com/bruzit/infra)
 
 Infrastructure blueprints for workstations, home network, edge Kubernetes lab, and self-hosted services, provisioned with Ansible and Terraform under GitOps.
+
+### [BruzIT / martin.bruzina.cz](https://github.com/bruzit/martin.bruzina.cz)
+
+Personal web of Martin Bružina: e-business card, CV and blog.
 
 ### [BruzIT / Template](https://github.com/bruzit/template)
 
