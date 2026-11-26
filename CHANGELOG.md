@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.29.0](https://github.com/bruzit/.github/compare/v0.28.0...v0.29.0) (2026-11-26)
+
+### Features
+
+* add cloudflare environments to infra ([454c848](https://github.com/bruzit/.github/commit/454c84894f668a39eb4bf7fca931f7c4b0a84ffc))
+
 ## [0.28.0](https://github.com/bruzit/.github/compare/v0.27.1...v0.28.0) (2026-11-24)
 
 ### Features
