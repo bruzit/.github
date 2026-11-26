@@ -26,4 +26,4 @@ Infrastructure blueprints for workstations, home network, edge Kubernetes lab, a
 
 ### [BruzIT / Template](https://github.com/bruzit/template)
 
-Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton.
+Repository template for BruzIT projects: MegaLinter and semantic-release callers, Renovate and release configuration, license, security policy and README skeleton.

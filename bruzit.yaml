@@ -267,7 +267,7 @@ repositories:
         secrets:
           - CLOUDFLARE_API_TOKEN
   - name: template
-    description: "Repository template for BruzIT projects: MegaLinter and semantic-release callers, release configuration, license and README skeleton."
+    description: "Repository template for BruzIT projects: MegaLinter and semantic-release callers, Renovate and release configuration, license, security policy and README skeleton."
     visibility: public
     required_checks:
       - Required (MegaLinter)
