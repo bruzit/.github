@@ -244,6 +244,34 @@ repositories:
           - HCLOUD_TOKEN
           - AWS_ACCESS_KEY_ID
           - AWS_SECRET_ACCESS_KEY
+      cloudflare-prod:
+        deployment_branches:
+          - ~DEFAULT_BRANCH
+        reviewers:
+          - bruzina
+        variables:
+          AWS_TF_BUCKET: bruzit-terraform-cloudflare-prod
+          AWS_ENDPOINT_URL_S3: https://bb6cb15aacaccf32101aab14a9cf3bfd.eu.r2.cloudflarestorage.com
+          CLOUDFLARE_ACCOUNT_ID: bb6cb15aacaccf32101aab14a9cf3bfd
+          GH_TF_APP_ID: "5894627"
+          GH_TF_APP_INSTALLATION_ID: "185164748"
+        secrets:
+          - CLOUDFLARE_API_TOKEN
+          - GH_TF_APP_PEM_FILE
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
+      cloudflare-prod-plan:
+        variables:
+          AWS_TF_BUCKET: bruzit-terraform-cloudflare-prod
+          AWS_ENDPOINT_URL_S3: https://bb6cb15aacaccf32101aab14a9cf3bfd.eu.r2.cloudflarestorage.com
+          CLOUDFLARE_ACCOUNT_ID: bb6cb15aacaccf32101aab14a9cf3bfd
+          GH_TF_APP_ID: "5943881"
+          GH_TF_APP_INSTALLATION_ID: "186290989"
+        secrets:
+          - CLOUDFLARE_API_TOKEN
+          - GH_TF_APP_PEM_FILE
+          - AWS_ACCESS_KEY_ID
+          - AWS_SECRET_ACCESS_KEY
   - name: martin.bruzina.cz
     description: "Personal web of Martin Bružina: e-business card, CV and blog."
     visibility: public
